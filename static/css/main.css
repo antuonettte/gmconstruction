@@ -8,9 +8,6 @@
     font-family: RaleWay;
 }
 
-.row{
-    min-height: 100vh;
-}
 
 body {
     min-height: 2000px;
@@ -63,6 +60,15 @@ body {
     font-weight: 400;
     letter-spacing: 1px;
     font-style: italic;
+}
+
+.lottie{
+    width: 100%;
+    height: auto;
+}
+
+.full-height{
+    min-height: 100vh !important;
 }
 
 

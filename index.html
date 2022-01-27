@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/static/css/animations.css">
     <link rel="stylesheet" href="/static/css/main.css">
     <link rel="stylesheet" href="/static/css/Navbar.css">
+    <link rel="stylesheet" href="./static/css/contact.css">
 </head>
 
 <body>
@@ -64,7 +65,7 @@
 
     <main class="container-fluid">
 
-        <div class="row ">
+        <div class="row full-height">
             <div class="col-md heroContainer ">
                 <h1>G <span style="color: #ff0000; font-size: 30px; font-weight: 600;">&</span> M</h1>
                 <h3 style="font-weight: 300;">Construction LLC</h3>
@@ -77,73 +78,65 @@
 
 
         <div class="row" id="about">
-            <div class="col-md test">
+            <div class="col-md full-height">
                 <div class="info1">
+                    <lottie-player style="height: 40vh;" src="https://assets3.lottiefiles.com/packages/lf20_byuzwmds.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
 
                 </div>
             </div>
-            <div class="col-md test">
+            <div class="col-md full-height">
                 <div class="info2"></div>
             </div>
         </div>
 
-        <div class="row " id="contact">
-            <div class="col test">
-                
+        <div class="row full-height" id="contact">
+            <div class="col-sm-5 order-md-12 ">
+                <lottie-player class="lottie" src="https://assets5.lottiefiles.com/packages/lf20_p5mz9usa.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+            </div>
+            <div class="col-sm  order-md-1 d-flex justify-content-center align-items-center">
+                    <form class="form" action="">
+
+                        <div class="row">
+                            <div class=" col">
+                                <h1 class="form-header" >Contact Us!</h1>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group col-sm">
+                              <input type="text" class="form-control" id="firstName" placeholder="First name">
+                            </div>
+                            <div class="input-group col-sm">
+                              <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group col">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group col">
+                                <textarea name="message" class="form-control" placeholder="Message" id="message" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <button class="form-control btn">Send Message</button>
+
+                    </form>
             </div>
         </div>
 
-
-        <!-- <div id="hero" class="jumbotron hero jumbotron-fluid no-gutters">
-            <div class="container d-flex justify-content-center align-items-center">
-                <div class="heroInfo text-center ">
-                    <h1 class="">G&M</h1>
-                    <br>
-                    <p class="lead">Construction Professionals</p>
-
-                    <hr class="heroLine">
-
-                    <p class="lead">Let us lead your next home project</p>
-                    <a href="#contact" class="btn btn-1 mt-3">
-                        <svg>
-                            <rect x="0" y="0" fill="none" width="100%" height="90%" />
-                        </svg> Take a look</a>
-                </div>
-            </div>
-        </div>
-
-        <section id="services" class="container ">
-            <div class="row ">
-                <div class="col-sm test">
-                    column1
-                </div>
-                <div class="col-sm test">
-                    col 2
-
-                </div>
-            </div>
-        </section>
-
-
-        <section id="reviews">
-            <h1>reviews</h1>
-        </section>
-
-        <section id="about">
-            <h1>about</h1>
-        </section>
-
-        <section id="contact">
-            <h1>contact</h1>
-        </section> -->
 
     </main>
 
-    <footer>
+    <footer style="height: 300px; background-color: lightgray;">
 
     </footer>
 
-
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
